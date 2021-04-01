@@ -1,0 +1,25 @@
+﻿Build started 10/11/2019 12:28:39 AM.
+     1>Project "c:\Users\walied\Documents\Visual Studio 2012\Projects\PEChecksum\PEChecksum\PEChecksum.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\PEChecksum.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt PEChecksum.cpp
+         PEChecksum.cpp
+     1>c:\users\walied\documents\visual studio 2012\projects\pechecksum\pechecksum\Header.h(11): warning C4005: 'SEC_IMAGE' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winnt.h(11550) : see previous definition of 'SEC_IMAGE'
+     1>PEChecksum.cpp(51): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>PEChecksum.cpp(223): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1018) : see declaration of 'wcscat'
+     1>PEChecksum.cpp(224): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1018) : see declaration of 'wcscat'
+     1>PEChecksum.cpp(265): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>PEChecksum.cpp(275): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\walied\Documents\Visual Studio 2012\Projects\PEChecksum\x64\Release\PEChecksum.exe" /INCREMENTAL:NO /NOLOGO ntdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\Users\walied\Documents\Visual Studio 2012\Projects\PEChecksum\x64\Release\PEChecksum.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\walied\Documents\Visual Studio 2012\Projects\PEChecksum\x64\Release\PEChecksum.lib" /MACHINE:X64 x64\Release\PEChecksum.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         PEChecksum.vcxproj -> c:\Users\walied\Documents\Visual Studio 2012\Projects\PEChecksum\x64\Release\PEChecksum.exe
+     1>Done Building Project "c:\Users\walied\Documents\Visual Studio 2012\Projects\PEChecksum\PEChecksum\PEChecksum.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.55
